@@ -1,0 +1,27 @@
+print("Enter 1st Number")
+num1 = int(input())
+print("Enter 2nd Number")
+num2 = int(input())
+print('so what you want ?' + '+,-,*,/,**')
+num3 = input()
+
+if num1 == 45 and num2 == 3 and num3 == '*':
+    print("555")
+elif num1 == 56 and num2 == 9 and num3 == '+':
+    print("77")
+elif num1 == 56 and num2 == 6 and num3 == '/':
+    print("0.004")
+elif num3 == '*':
+    mul = num2+num1
+    print(mul)
+elif num3 == '+':
+   plus =  num2+num1
+   print(plus)
+elif num3 == '/':
+    div = num2/num1
+    print(div)
+elif num3 == '%':
+    percent = num2%num1
+    print(percent)
+else:
+    print("out of Range")
